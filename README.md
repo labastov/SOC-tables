@@ -14,9 +14,12 @@ amlogic s912  Antutu 37517/41185
 есть тест https://math.nist.gov/scimark2/download_java.html
 запускается 
 
-java -cpscimark2lib.jar jnt.scimark2.commandline
+
 
 ## НА ThinkPad X1 JOGA 1st (i7-6600U 2,6/2,81GHz) 
+
+```
+java -cpscimark2lib.jar jnt.scimark2.commandline
 
 SciMark 2.0a
 
@@ -32,8 +35,11 @@ java.version: 1.8.0_144
 os.arch: amd64
 os.name: Windows 10
 os.version: 10.0
+```
 
-C:\Users\lva\Documents\Док-синхро\ЛИЧНОЕ-mac\Программирование>java -cp scimark2lib.jar jnt.scimark2.commandline -large
+
+```
+java -cp scimark2lib.jar jnt.scimark2.commandline -large
 
 SciMark 2.0a
 
@@ -49,3 +55,4 @@ java.version: 1.8.0_144
 os.arch: amd64
 os.name: Windows 10
 os.version: 10.0
+```
