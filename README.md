@@ -19,7 +19,7 @@ amlogic s912  Antutu 37517/41185
 ## НА ThinkPad X1 JOGA 1st (i7-6600U 2,6/2,81GHz) 
 
 ```
-java -cpscimark2lib.jar jnt.scimark2.commandline
+java -cp scimark2lib.jar jnt.scimark2.commandline
 
 SciMark 2.0a
 
@@ -60,3 +60,43 @@ os.version: 10.0
 
 ## cubieboard 2
 https://openbenchmarking.org/result/1806275-AR-CUBIEBOAR05
+
+
+```
+root@cubieboard2:~# java -cp scimark2lib.jar jnt.scimark2.commandline
+
+SciMark 2.0a
+
+Composite Score: 48.08651648734924
+FFT (1024): 30.27354564385959
+SOR (100x100):   84.48592425032193
+Monte Carlo : 16.76883219160037
+Sparse matmult (N=1000, nz=5000): 44.9122806782721
+LU (100x100): 63.99199967269221
+
+java.vendor: Oracle Corporation
+java.version: 1.8.0_191
+os.arch: arm
+os.name: Linux
+os.version: 4.14.81-sunxi
+```
+
+```
+ root@cubieboard2:~# java -cp scimark2lib.jar jnt.scimark2.commandline -large
+
+SciMark 2.0a
+
+Composite Score: 31.792022537212553
+FFT (1048576): 7.6719542441047786
+SOR (1000x1000):   78.53122438787184
+Monte Carlo : 16.718700802299082
+Sparse matmult (N=100000, nz=1000000): 22.408962133772683
+LU (1000x1000): 33.629271118014366
+
+java.vendor: Oracle Corporation
+java.version: 1.8.0_191
+os.arch: arm
+os.name: Linux
+os.version: 4.14.81-sunxi
+
+```
