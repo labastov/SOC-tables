@@ -56,3 +56,7 @@ os.arch: amd64
 os.name: Windows 10
 os.version: 10.0
 ```
+
+
+## cubieboard 2
+https://openbenchmarking.org/result/1806275-AR-CUBIEBOAR05
