@@ -100,3 +100,21 @@ os.name: Linux
 os.version: 4.14.81-sunxi
 
 ```
+##  Xiaomi Mi 9 SE 6/64GB
+```
+SciMark 2.0a
+
+Composite Score: 509.51
+FFT (1024): 547.47
+SOR (100x100):   627.059888
+Monte Carlo : 42.22
+Sparse matmult (N=1000, nz=5000): 532.596
+LU (100x100): 798.2
+```
+
+### RPi Model 4 B 4GB
+
+
+SciMark 2.0a
+
+Composite Score: 142.17
